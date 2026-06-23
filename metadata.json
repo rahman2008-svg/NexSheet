@@ -1,0 +1,6 @@
+{
+  "name": "NexSheet",
+  "description": "Fast, lightweight offline-first spreadsheet and data manager styled in Material 3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

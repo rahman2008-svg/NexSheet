@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Spreadsheet Rounded Base Card shape in the center -->
+    <path
+        android:fillColor="#107C41"
+        android:pathData="M 32,28 L 76,28 C 80.4,28 84,31.6 84,36 L 84,80 C 84,84.4 80.4,88 76,88 L 32,88 C 27.6,88 24,84.4 24,80 L 24,36 C 24,31.6 27.6,28 32,28 Z" />
+
+    <!-- Top primary header bar segment -->
+    <path
+        android:fillColor="#0A5B2E"
+        android:pathData="M 32,28 L 76,28 C 80.4,28 84,31.6 84,36 L 84,46 L 24,46 L 24,36 C 24,31.6 27.6,28 32,28 Z" />
+
+    <!-- Table row grids lines (white vector) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M31,34 H77 V37 H31 Z M31,51 H77 V54 H31 Z M31,63 H77 V66 H31 Z M31,75 H77 V78 H31 Z" />
+
+    <!-- Vertical Column Grid lines segment (white vector) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,51 V80 H46 V51 Z M59,51 V80 H62 V51 Z" />
+
+    <!-- Small decorative 'X' or excel spreadsheet symbol cross -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,32 L40,42 H37 L34,36 L31,42 H28 Z" />
+</vector>
