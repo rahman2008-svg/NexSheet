@@ -1,0 +1,19 @@
+workflows:
+  android-build:
+    name: Nexsheet APK Build
+
+    environment:
+      java: 17
+
+    scripts:
+      - chmod +x gradlew
+      - ./gradlew clean
+      - ./gradlew assembleDebug
+
+    artifacts:
+      - app/build/outputs/**/*.apk
+
+    cache:
+      cache_paths:
+        - ~/.gradle/caches
+        - ~/.gradle/wrapper
